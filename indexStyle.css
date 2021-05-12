@@ -31,6 +31,24 @@ a:hover {
     color: #0919a7
 }
 
+.parallaxGirl {
+    min-height: 100vh; 
+  
+    background-attachment: fixed;
+    background-position: 50% 32%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.frontPageBox {
+    width: fit-content;
+    height: fit-content;
+    
+    position: absolute;
+    top: 70vh;
+    left: 15vw;
+}
+
 .introH1, .introP {
     margin: 10px;
 }
@@ -39,23 +57,40 @@ a:hover {
     text-align: center;
     background-color: #000000c2;
     color: white;
-    width: 30vw;
+    width: 25vw;
     min-width: fit-content;
     height: 90px;
     padding: 5px 10px;
     border-radius: 8px;
-    position: absolute;
-    bottom: 20vh;
-    left: 15vw;
 }
 
-.parallax {
-    background-image: url(".\\blueGirl.jpeg");
-  
-    min-height: 100vh; 
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+.contactLink, .contactLink:hover {
+    margin: 0 0;
+    color: rgba(255, 255, 255, 0);
+}
+
+.contactsRow {
+    width: fit-content;
+    height: 40px;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.contactBox {
+    background-color: #000000c2;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display:inline-block;
+    margin-top: 10px;
+}
+
+.contactLogo {
+    padding: 9px 9px;
+}
+
+.contactBox:hover {
+    position:relative;
+    bottom: 2.5px;
+}
