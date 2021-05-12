@@ -45,7 +45,7 @@ a:hover {
     height: fit-content;
     
     position: absolute;
-    top: 70vh;
+    bottom: 20vh;
     left: 15vw;
 }
 
