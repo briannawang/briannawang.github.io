@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 5px;
     
 }
@@ -107,8 +107,7 @@ a:hover {
 }
 
 .profileContainer {
-    width: 100vw;
-    height: 240px;
+    height: fit-content;
     margin: 0 20px;
     padding: 20px;
     display: flex;
@@ -130,7 +129,7 @@ a:hover {
 
 #aboutMe {
     padding: 20px;
-    margin-right: 40px;
+
 }
 
 .profilePic {
@@ -145,4 +144,5 @@ a:hover {
 .name {
     width:fit-content;
     margin: 20px auto;
+    margin-bottom: 0px;
 }
