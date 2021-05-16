@@ -13,6 +13,10 @@ footer {
     text-align: center;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 h1, h2, h3, p, a, ul, li {
     margin: 0 40px;
 }
@@ -42,6 +46,10 @@ a:hover {
     color: #0919a7
 }
 
+ul {
+    padding: 0;
+}
+
 .parallaxGirl {
     min-height: 100vh; 
   
@@ -50,6 +58,30 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+.topNav {
+    background-color: #000000b0;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 35px;
+    width: fit-content;
+    text-align: right;
+    border-radius: 8px;
+}
+
+.navLink {
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+    top: 8px;
+    font-weight: 500;
+}
+
+.navLink:hover {
+    color: #c9cde4;
+}
 
 .frontPageBox {
     width: fit-content;
@@ -66,7 +98,7 @@ a:hover {
 
 .introBox {
     text-align: center;
-    background-color: #000000c2;
+    background-color: #000000b0;
     color: white;
     width: 25vw;
     min-width: fit-content;
@@ -89,7 +121,7 @@ a:hover {
 }
 
 .contactBox {
-    background-color: #000000c2;
+    background-color: #000000be;
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -108,8 +140,9 @@ a:hover {
 
 .profileContainer {
     height: fit-content;
-    margin: 0 20px;
+    margin: 0 80px;
     padding: 20px;
+    padding-top: 80px;
     display: flex;
 }
 
@@ -122,6 +155,14 @@ a:hover {
     margin-right: 20px;
 } 
 
+.greeting {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    margin: 0 100px;
+    padding-bottom: 80px;
+}
+
 #picName {
     padding: 20px;
     width: fit-content;
@@ -129,16 +170,17 @@ a:hover {
 
 #aboutMe {
     padding: 20px;
+    padding-left: 10px;
 
 }
 
 .profilePic {
     border-radius: 90px;
-    border: 6px solid #000000c2;
+    border: 6px solid #000000b0;
 }
 
 .furtherInfo {
-    padding-left:20px;
+    padding-left:100px;
 }
 
 .name {
