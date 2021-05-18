@@ -42,10 +42,6 @@ p, a {
     line-height: 1.3;
 }
 
-a:hover {
-    color: #0919a7
-}
-
 ul {
     padding: 0;
 }
@@ -131,12 +127,60 @@ ul {
 
 .contactLogo {
     padding: 9px 9px;
+    
 }
 
 .contactBox:hover {
     position:relative;
     bottom: 2.5px;
 }
+
+.greeting {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    margin: 0 100px;
+    padding-bottom: 80px;
+}
+
+.greeting:hover {
+    color:#000b4d;
+}
+
+.projectsModule {
+    display: flex;
+    width: calc(100% - 180px);
+    margin: 40px 40px;
+}
+
+.innerBorderBox {
+    border: 1px solid black;
+    border-radius: 8px;
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    margin-top: 10px;
+    color:black;
+    width: calc(100% - 120px);
+    height: fit-content;
+
+    padding-bottom: 25px;
+}
+
+.innerBorderBox:hover {
+    background-color: #e5e6ee;
+}
+
+.projectIcon {
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+.projectIcon:hover {
+    transform: scale(1.1);
+    
+}
+
+/* About Me Page */
 
 .profileContainer {
     height: fit-content;
@@ -155,17 +199,10 @@ ul {
     margin-right: 20px;
 } 
 
-.greeting {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 100px;
-    margin: 0 100px;
-    padding-bottom: 80px;
-}
-
 #picName {
     padding: 20px;
     width: fit-content;
+    margin: auto;
 }
 
 #aboutMe {
