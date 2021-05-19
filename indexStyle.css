@@ -143,18 +143,14 @@ ul {
     padding-bottom: 80px;
 }
 
-.greeting:hover {
-    color:#000b4d;
-}
-
 .projectsModule {
     display: flex;
     width: calc(100% - 180px);
-    margin: 40px 40px;
+    margin: 60px 60px;
 }
 
 .innerBorderBox {
-    border: 1px solid black;
+    border: 1px solid #000000be;
     border-radius: 8px;
     border-left: 0px;
     border-top-left-radius: 0px;
@@ -167,7 +163,7 @@ ul {
 }
 
 .innerBorderBox:hover {
-    background-color: #e5e6ee;
+    background-color: rgb(230, 231, 240);
 }
 
 .projectIcon {
@@ -224,4 +220,19 @@ ul {
     width:fit-content;
     margin: 20px auto;
     margin-bottom: 0px;
+}
+
+/* Projects Page */
+
+#projectsHeading {
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.projectLanguage {
+    color: #4356c2;
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: bolder;
 }
