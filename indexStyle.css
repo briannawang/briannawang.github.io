@@ -76,7 +76,7 @@ ul {
 }
 
 .navLink:hover {
-    color: #c9cde4;
+    color:#b3b6c9;
 }
 
 .frontPageBox {
@@ -150,7 +150,7 @@ ul {
 }
 
 .innerBorderBox {
-    border: 1px solid #000000be;
+    border: 1px solid #b3b6c9;
     border-radius: 8px;
     border-left: 0px;
     border-top-left-radius: 0px;
@@ -159,11 +159,14 @@ ul {
     width: calc(100% - 120px);
     height: fit-content;
 
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    
 }
 
 .innerBorderBox:hover {
-    background-color: rgb(230, 231, 240);
+    border: 1px solid #07145a;
+    border-left: 0px;
 }
 
 .projectIcon {
@@ -172,7 +175,7 @@ ul {
 }
 
 .projectIcon:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     
 }
 
@@ -209,7 +212,7 @@ ul {
 
 .profilePic {
     border-radius: 90px;
-    border: 6px solid #000000b0;
+    border: 6px solid #41456373;
 }
 
 .furtherInfo {
@@ -231,8 +234,8 @@ ul {
 }
 
 .projectLanguage {
-    color: #4356c2;
+    color: #727797;
     font-size: 14px;
     padding-bottom: 20px;
-    font-weight: bolder;
+    font-weight: 900;
 }
