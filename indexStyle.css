@@ -152,14 +152,33 @@ ul {
 .projectsModuleSmall {
     display: flex;
     width: calc(100% - 220px);
-    margin: 60px 40px;
-    flex-direction: column;
+    margin: 50px 40px;
 }
 
 .projectsModule {
     display: flex;
     width: calc(100% - 220px);
-    margin: 50px 80px;
+    margin: 50px 70px;
+}
+
+.innerBorderBoxSmall {
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    margin-top: 10px;
+    color:black;
+    width: calc(100% - 180px);
+    height: fit-content;
+
+    padding-top: 40px;
+    padding-bottom: 65px;
+    
+}
+
+.innerBorderBoxSmall:hover {
+    border: 1px solid #5c5c5c;
+    border-left: 0px;
 }
 
 .innerBorderBox {
