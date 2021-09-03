@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 235, 241);
+    background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
@@ -69,7 +69,7 @@ ul {
 }
 
 .navLink {
-    color: rgb(236, 235, 241);
+    color: rgb(240, 240, 240);
     text-decoration: none;
     position: relative;
     top: 8px;
@@ -163,7 +163,7 @@ ul {
 }
 
 .innerBorderBox {
-    border: 1px solid #b3b6c9;
+    border: 1px solid #c9c9c9;
     border-radius: 8px;
     border-left: 0px;
     border-top-left-radius: 0px;
@@ -178,7 +178,7 @@ ul {
 }
 
 .innerBorderBox:hover {
-    border: 1px solid #07145a;
+    border: 1px solid #5c5c5c;
     border-left: 0px;
 }
 
@@ -225,7 +225,7 @@ ul {
 
 .profilePic {
     border-radius: 90px;
-    border: 6px solid #41456373;
+    border: 6px solid #5c5c5c;
 }
 
 .furtherInfo {
@@ -248,7 +248,7 @@ ul {
 }
 
 .projectLanguage {
-    color: #727797;
+    color: #949494;
     font-size: 14px;
     padding-bottom: 20px;
     font-weight: 900;
