@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 235, 241);
+    background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ h1 {
 h2 {
     margin-top: 20px;
     margin-bottom: 5px;
-    font-size: 180%;
+    font-size: 150%;
 }
 
 h3 {
@@ -69,11 +69,11 @@ ul {
 }
 
 .navLink {
-    color: rgb(236, 235, 241);
+    color: rgb(240, 240, 240);
     text-decoration: none;
     position: relative;
     top: 8px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .navLink:hover {
@@ -139,9 +139,9 @@ ul {
 .greeting {
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: calc(50vh - 15px);
     margin: 0 100px;
-    padding-bottom: 80px;
+    padding-bottom: calc(50vh - 15px);
 }
 
 .projectRow {
@@ -152,18 +152,18 @@ ul {
 .projectsModuleSmall {
     display: flex;
     width: calc(100% - 220px);
-    margin: 60px 60px;
+    margin: 60px 40px;
     flex-direction: column;
 }
 
 .projectsModule {
     display: flex;
     width: calc(100% - 220px);
-    margin: 60px 60px;
+    margin: 50px 80px;
 }
 
 .innerBorderBox {
-    border: 1px solid #b3b6c9;
+    border: 1px solid #c9c9c9;
     border-radius: 8px;
     border-left: 0px;
     border-top-left-radius: 0px;
@@ -178,7 +178,7 @@ ul {
 }
 
 .innerBorderBox:hover {
-    border: 1px solid #07145a;
+    border: 1px solid #5c5c5c;
     border-left: 0px;
 }
 
@@ -225,7 +225,7 @@ ul {
 
 .profilePic {
     border-radius: 90px;
-    border: 6px solid #41456373;
+    border: 6px solid #5c5c5c;
 }
 
 .furtherInfo {
@@ -248,7 +248,7 @@ ul {
 }
 
 .projectLanguage {
-    color: #727797;
+    color: #949494;
     font-size: 14px;
     padding-bottom: 20px;
     font-weight: 900;
