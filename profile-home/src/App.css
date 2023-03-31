@@ -1,0 +1,8 @@
+html {
+  font-family: var(--bs-font-sans-serif);
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
