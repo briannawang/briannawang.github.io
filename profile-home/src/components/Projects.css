@@ -1,0 +1,42 @@
+.projectBody {
+    padding: 60px 70px;
+    background-color: black;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.113), rgba(255, 255, 255, 0.066), rgba(0, 0, 0, 0));
+}
+
+.inner-project-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+}
+
+.project-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projectLanguage {
+    font-size: 14px;
+    font-weight: 900;
+}
+.projectsProjectIcon {
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.private-tag {
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    background-color: rgb(62, 62, 62);
+}

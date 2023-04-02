@@ -8,18 +8,14 @@ h3 {
 
 .aboutBody {
     color: white;
-    position: absolute;
-    padding: 80px 60px;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.872);
-    z-index: 1;
-    height: 100vh;
+    background-color: black;
+    padding: 60px 70px;
 }
 
 .profileContainer {
     height: fit-content;
     padding-top: 10px;
+    padding-left: 10px;
     padding-bottom: 20px;
     margin-bottom: 30px;
     margin-top: 80px;
@@ -35,6 +31,7 @@ h3 {
 
 #aboutMe {
     padding: 20px;
+    padding-right: 40px;
 }
 
 .profilePic {
@@ -64,7 +61,7 @@ h3 {
     font-weight: 220;
     line-height: 80%;
     text-shadow: rgba(255, 255, 255, 0.576) 2px 1px;
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.871), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.871), rgb(255, 255, 255));
     text-align: justify;
     
     position: fixed;

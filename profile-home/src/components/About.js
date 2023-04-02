@@ -1,4 +1,4 @@
-import githubProfilePic from '../assets/githubProfilePic.png';
+import githubProfilePic from '../assets/githubProfilePic.jpeg';
 import './About.css';
 
 function sortByAuthor(a, b) {

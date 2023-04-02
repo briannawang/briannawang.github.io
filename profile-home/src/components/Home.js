@@ -14,7 +14,9 @@ export default function Home() {
             <div class="parallaxGirl"></div>
             <Contact />
             <div class="homeBody">
-                <p>Hello, I'm Brianna Wang! I'm a student in software engineering.</p>
+                <div className="home-greeting">
+                    Hello, I'm Brianna Wang! I'm a student in software engineering.
+                </div>
             </div>
         </div>
     );
