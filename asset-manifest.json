@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.def5e020.css",
+    "main.js": "/static/js/main.601292f5.js",
+    "static/media/blueGirl2.jpeg": "/static/media/blueGirl2.e56f12d84903333208a4.jpeg",
+    "static/media/spotifyWebAppLogo.gif": "/static/media/spotifyWebAppLogo.dacf1d0b203b3f85a7c1.gif",
+    "static/media/personalWebsiteLogo.png": "/static/media/personalWebsiteLogo.1b2a080d54c5f84c743e.png",
+    "static/media/imessageFriendsLogo.gif": "/static/media/imessageFriendsLogo.e5c834aba1c99170966e.gif",
+    "static/media/carbonfoodprintLogo.png": "/static/media/carbonfoodprintLogo.92c60dbcc447a4fcde2c.png",
+    "static/media/githubProfilePic.jpeg": "/static/media/githubProfilePic.f7f71f9d388ff9900838.jpeg",
+    "static/media/briannaResume.pdf": "/static/media/briannaResume.20ac2e174fccd261dd0b.pdf",
+    "static/media/linkedinLogo.png": "/static/media/linkedinLogo.a8d4c0a3677a08ba8729.png",
+    "static/media/platformerLogo.png": "/static/media/platformerLogo.a8463ccaef9496b13d16.png",
+    "static/media/githubLogo.png": "/static/media/githubLogo.c1bda68a6f2ff44defcb.png",
+    "static/media/emailLogo.png": "/static/media/emailLogo.5af2dc148e15d14e11c4.png",
+    "index.html": "/index.html",
+    "main.def5e020.css.map": "/static/css/main.def5e020.css.map",
+    "main.601292f5.js.map": "/static/js/main.601292f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.def5e020.css",
+    "static/js/main.601292f5.js"
+  ]
+}
