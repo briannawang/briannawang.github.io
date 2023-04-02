@@ -1,7 +1,64 @@
 import githubProfilePic from '../assets/githubProfilePic.png';
 import './About.css';
 
+function sortByAuthor(a, b) {
+    return a.author.split(" ")[1].charAt(0) < b.author.split(" ")[1].charAt(0) ? -1 : 1;
+}
+
 export default function About() {
+    let reading_list = [
+        {
+            'title': "The Wretched of the Earth",
+            'author': "Frantz Fanon"
+        },
+        {
+            'title': "The Darker Nations",
+            'author': "Vijay Prashad"
+        },
+        {
+            'title': "The Sixth Extinction: An Unnatural History",
+            'author': "Elizabeth Kolbert"
+        },
+        {
+            'title': "1Q84",
+            'author': "Haruki Murakami"
+        },
+        {
+            'title': "Kafka On The Shore",
+            'author': "Haruki Murakami"
+        },
+        {
+            'title': "Hard-Boiled Wonderland and the End of the World",
+            'author': "Haruki Murakami"
+        },
+        {
+            'title': "The Song of Achilles",
+            'author': "Madeline Miller"
+        },
+        {
+            'title': "Circe",
+            'author': "Madeline Miller"
+        },
+        {
+            'title': "The Colour Purple",
+            'author': "Alice Walker"
+        },
+        {
+            'title': "Internet for the People",
+            'author': "Ben Tarnoff"
+        },
+        {
+            'title': "The Illustrated Man",
+            'author': "Ray Bradbury"
+        }
+    ]
+
+    let sort_reading_list = reading_list.sort(sortByAuthor);
+
+    const reading_list_div = sort_reading_list.map((item, i) => {
+        return(<li>{item.title} | {item.author}</li>)
+    })
+
     let about_a = `Hi, I'm Brianna, a 2B Software Engineering student at the University of Waterloo. ` +
     `I'm always looking learn about and explore different tools and technologies. In the past, ` +
     `I've been particularly interested in web development and have fullstack and backend experience ` +
@@ -16,7 +73,7 @@ export default function About() {
 
     return (
         <div>
-                    <div className="aboutBody">
+        <div className="aboutBody">
             <div class="profileContainer">
                 <a class="contactLink" href="https://github.com/briannawang" target="_blank" title="https://github.com/briannawang">
                     <div class="flex-child" id="picName">
@@ -35,18 +92,7 @@ export default function About() {
                 <p>University of Waterloo | Bachelor of Software Engineering | 2021 - 2026 (expected)</p>
                 <h3>Recent Reading</h3>
                 <ul>
-                    <li>The Wretched of the Earth | Frantz Fanon</li>
-                    <li>The Darker Nations | Vijay Prashad</li>
-                    <li>The Sixth Extinction: An Unnatural History | Elizabeth Kolbert</li>
-                    <li>1Q84 | Haruki Murkami</li>
-                    <li>Kafka On The Shore | Haruki Murkami</li>
-                    <li>Hard-Boiled Wonderland and the End of the World | Haruki Murkami</li>
-                    <li>Oryx and Crake | Margaret Atwood</li>
-                    <li>Mythos | Stephen Fry</li>
-                    <li>The Song of Achilles | Madeline Miller</li>
-                    <li>Circe | Madeline Miller</li>
-                    <li>The Colour Purple | Alice Walker</li>
-                    <li>Internet for the People | Ben Tarnoff</li>
+                    {reading_list_div}
                 </ul>
             </div>
         </div>

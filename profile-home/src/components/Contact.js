@@ -4,7 +4,7 @@ import emailLogo from '../assets/emailLogo.png';
 import linkedinLogo from '../assets/linkedinLogo.png';
 
 function Contact() {
-  var contact_list = [
+  let contact_list = [
     {
       'href': "https://github.com/briannawang",
       'target': "_blank",

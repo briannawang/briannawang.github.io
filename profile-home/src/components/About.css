@@ -1,3 +1,11 @@
+h1 {
+    padding-top: 8px;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
 .aboutBody {
     color: white;
     position: absolute;
@@ -40,6 +48,7 @@
 }
 
 .github-name {
+    padding-top: 5px;
     width:fit-content;
     margin: 10px auto;
     margin-bottom: 0px;
