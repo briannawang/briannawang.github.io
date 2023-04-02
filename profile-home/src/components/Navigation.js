@@ -15,7 +15,7 @@ function Navigation() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href={`${BASE_URL}/`}>HOME</Nav.Link>
-              <Nav.Link href={`${BASE_URL}/about`}>ABOUT ME</Nav.Link>
+              <Nav.Link href={`${BASE_URL}/about`}>ABOUT</Nav.Link>
               <NavDropdown title="MY WORK" id="basic-nav-dropdown">
                 <NavDropdown.Item href={`${BASE_URL}/projects`}>PROJECTS</NavDropdown.Item>
                 <NavDropdown.Item href={`${BASE_URL}/resume`}>RESUME</NavDropdown.Item>
