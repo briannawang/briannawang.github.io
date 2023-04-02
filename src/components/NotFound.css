@@ -1,0 +1,11 @@
+.not-found {
+    color: white;
+    position: absolute;
+    top: 45vh;
+    right: 10vw;
+    z-index: 2;
+    font-style: italic;
+    width: calc(10px + 30vw);
+
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.615), rgba(0, 0, 0, 0));
+}
