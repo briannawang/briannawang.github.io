@@ -6,3 +6,12 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.router {
+  background-color: white;
+}
+
+.layout {
+  background-color: white;
+  padding-left: 500px;
+}

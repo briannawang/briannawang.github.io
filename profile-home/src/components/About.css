@@ -1,0 +1,67 @@
+.aboutBody {
+    color: white;
+    position: absolute;
+    padding: 80px 60px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.872);
+    z-index: 1;
+    height: 100vh;
+}
+
+.profileContainer {
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    display: flex;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.301) , rgba(255, 255, 255, 0.267), rgba(255, 255, 255, 0));
+}
+
+#picName {
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+#aboutMe {
+    padding: 20px;
+}
+
+.profilePic {
+    border-radius: 90px;
+    border: 6px solid rgb(255, 255, 255, 0.55);
+}
+
+.furtherInfo {
+    padding-left:20px;
+    padding-bottom: 100px;
+}
+
+.github-name {
+    width:fit-content;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    font-size: calc(var(--bs-body-font-size) + 4px);
+    color: rgb(255, 255, 255, 0.55);
+}
+
+.display-about-quote {
+    width: 100vw;
+    font-size: calc(1vh + 1vw);
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 220;
+    line-height: 80%;
+    text-shadow: rgba(255, 255, 255, 0.576) 2px 1px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.871), rgba(0, 0, 0, 0));
+    text-align: justify;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: calc(1.2vh + 1.2vw);
+    z-index: 3;
+    overflow-y: clip;
+}

@@ -8,7 +8,7 @@
     line-height: 80%;
     text-shadow: rgb(255, 255, 255) 2px 1px;
     background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.871), rgba(0, 0, 0, 0));
-
+  
     position: absolute;
     top: 0;
     left: 0;
@@ -16,7 +16,7 @@
     right: 0;
     z-index: 1;
     
-    height: 350vh;
+    height: fit-content;
     overflow-y: clip;
 }
 
@@ -35,9 +35,9 @@
     text-align: center;
     color: white;
     position: absolute;
-    padding: calc(50vh - 20px) 0px;
+    padding: calc(50vh - 20px) 80px;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.676);
+    background-color: rgba(0, 0, 0, 0.764);
     z-index: 1;
 }

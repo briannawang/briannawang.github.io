@@ -1,0 +1,7 @@
+.not-found {
+    color: white;
+    position: absolute;
+    top: 50vh;
+    left: 60vw;
+    z-index: 2;
+}

@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navigation.css';
 
+const BASE_URL = new URL(window.location.href).origin
+
 function Navigation() {
   return (
     <div className="navbar-position">
@@ -12,11 +14,11 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">HOME</Nav.Link>
-              <Nav.Link href="#about">ABOUT</Nav.Link>
-              <NavDropdown title="WORK" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">PROJECTS</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">RESUME</NavDropdown.Item>
+              <Nav.Link href={`${BASE_URL}/`}>HOME</Nav.Link>
+              <Nav.Link href={`${BASE_URL}/about`}>ABOUT ME</Nav.Link>
+              <NavDropdown title="MY WORK" id="basic-nav-dropdown">
+                <NavDropdown.Item href={`${BASE_URL}/projects`}>PROJECTS</NavDropdown.Item>
+                <NavDropdown.Item href={`${BASE_URL}/resume`}>RESUME</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
