@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { REDIRECT_URL } from '../App.js'
 import './Navigation.css';
 
 const BASE_URL = new URL(window.location.href).origin
@@ -14,11 +15,11 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href={`${BASE_URL}/`}>HOME</Nav.Link>
-              <Nav.Link href={`${BASE_URL}/about`}>ABOUT</Nav.Link>
+              <Nav.Link href={`${BASE_URL}${REDIRECT_URL}/`}>HOME</Nav.Link>
+              <Nav.Link href={`${BASE_URL}${REDIRECT_URL}/about`}>ABOUT</Nav.Link>
               <NavDropdown title="MY WORK" id="basic-nav-dropdown">
-                <NavDropdown.Item href={`${BASE_URL}/projects`}>PROJECTS</NavDropdown.Item>
-                <NavDropdown.Item href={`${BASE_URL}/resume`}>RESUME</NavDropdown.Item>
+                <NavDropdown.Item href={`${BASE_URL}${REDIRECT_URL}/projects`}>PROJECTS</NavDropdown.Item>
+                <NavDropdown.Item href={`${BASE_URL}${REDIRECT_URL}/resume`}>RESUME</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

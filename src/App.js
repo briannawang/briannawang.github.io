@@ -9,6 +9,8 @@ import { Routes, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+export const REDIRECT_URL = "/me"
+
 function App() {
   return (
     <main>
@@ -16,9 +18,10 @@ function App() {
       <Routes className="router">
         <Route>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="resume" element={<Resume />} />
+          <Route path={`${REDIRECT_URL}`} element={<Home />} />
+          <Route path={`${REDIRECT_URL}/about`} element={<About />} />
+          <Route path={`${REDIRECT_URL}/projects`} element={<Projects />} />
+          <Route path={`${REDIRECT_URL}/resume`} element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

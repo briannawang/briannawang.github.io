@@ -43,7 +43,7 @@ export default function Projects() {
             'description': "An automated face mask detector, body temperature sensor, and room capacity counter; a 'prototype' alternative to manual COVID-19 screening. OpenCV and Tensorflow were used for the mask detection model, using information from a live video feed and temperture sensor attached to the Raspberry Pi"
         },
         {
-          'link': "https://github.com/briannawang/briannawang.github.io",
+          'link': "https://github.com/briannawang/me",
           'icon': personalWebsiteLogo,
           'projectName': "Personal Website",
           'technologies': "React, HTML/CSS",
