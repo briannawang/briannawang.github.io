@@ -2,6 +2,7 @@ import './Projects.css';
 import platformerLogo from '../assets/platformerLogo.png';
 import carbonfoodprintLogo from '../assets/carbonfoodprintLogo.png';
 import personalWebsiteLogo from '../assets/personalWebsiteLogo.png';
+import imessageFriendsLogo from '../assets/imessageFriendsLogo.gif';
 import spotifyWebAppLogo from '../assets/spotifyWebAppLogo.gif';
 
 export default function Projects() {
@@ -14,7 +15,7 @@ export default function Projects() {
             'description': "A 2D platformer game with a procedurally generated world map"
         },
         {
-            'icon': null,
+            'icon': imessageFriendsLogo,
             'projectName': "iMessage History",
             'private': true,
             'technologies': "React, Python, Docker",
@@ -75,6 +76,7 @@ export default function Projects() {
     return (
         <div>
             <div className="projectBody">
+            <h1>My Projects</h1>
                 {project_list_div}
             </div>
         </div>

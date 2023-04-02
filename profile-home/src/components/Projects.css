@@ -1,3 +1,7 @@
+h1 {
+    color: white;
+}
+
 .projectBody {
     padding: 60px 70px;
     background-color: black;
@@ -9,6 +13,7 @@
     margin-top: 35px;
     margin-bottom: 35px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.113), rgba(255, 255, 255, 0.066), rgba(0, 0, 0, 0));
+    margin-right: 40px;
 }
 
 .inner-project-box {
@@ -33,10 +38,10 @@
 }
 
 .private-tag {
-    padding: 2px;
+    padding: 1px;
     padding-left: 8px;
     padding-right: 8px;
-    margin-bottom: 0px;
+    margin-bottom: -2px;
     margin-left: 20px;
     background-color: rgb(62, 62, 62);
 }
