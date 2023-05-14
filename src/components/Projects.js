@@ -1,5 +1,5 @@
 import './Projects.css';
-import platformerLogo from '../assets/platformerLogo.png';
+import platformerLogo from '../assets/2DPlatformerLogo.gif';
 import carbonfoodprintLogo from '../assets/carbonfoodprintLogo.png';
 import personalWebsiteLogo from '../assets/personalWebsiteLogo.png';
 import imessageFriendsLogo from '../assets/imessageFriendsLogo.gif';
