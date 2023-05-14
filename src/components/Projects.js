@@ -12,7 +12,7 @@ export default function Projects() {
             'icon': platformerLogo,
             'projectName': "2D Platformer Game",
             'technologies': "C#, Unity",
-            'description': "A 2D platformer game with a procedurally generated world map"
+            'description': "A 2D platformer game that procedurally generates maps/caves using cellular automata and random walk algorithms"
         },
         {
             'icon': imessageFriendsLogo,
