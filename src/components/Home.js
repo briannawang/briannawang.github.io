@@ -15,7 +15,8 @@ export default function Home() {
             <Contact />
             <div class="homeBody">
                 <div className="home-greeting">
-                    Hello, I'm Brianna Wang! I'm a Software Engineering student at the University of Waterloo.
+                    <p>Hello, I'm Brianna Wang!</p>
+                    <p>I'm a Software Engineering student at the University of Waterloo.</p>
                 </div>
             </div>
         </div>

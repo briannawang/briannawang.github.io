@@ -33,21 +33,21 @@ export default function Projects() {
             'icon': spotifyWebAppLogo,
             'projectName': "Custom Spotify Web App",
             'technologies': "React, Javascript, Node.js/Express.js, Heroku",
-            'description': "A web app to stream and control music from a web player using the Spotify API, and display/analyze track metadata. The OAuth2 authentication flow and Spotify API/SDK requests for the music player controls, playlist, and track information were handled in an Express server and displayed on a React app"
+            'description': "A web app to stream and control music from a web player using the Spotify API, and display/analyze track metadata. Had a lightweight Express server and displayed on a React app"
         },
         {
             'link': "https://github.com/briannawang/covid-19-screening-device",
             'icon': null,
             'projectName': "COVID-19 Screening Device",
             'technologies': "Python, TensorFlow, Raspberry Pi",
-            'description': "An automated face mask detector, body temperature sensor, and room capacity counter; a 'prototype' alternative to manual COVID-19 screening. OpenCV and Tensorflow were used for the mask detection model, using information from a live video feed and temperture sensor attached to the Raspberry Pi"
+            'description': "An automated face mask detector, body temperature sensor, and room capacity counter for COVID-19 screening. OpenCV and Tensorflow were used for the mask detection model, using information from a live video feed and temperture sensor attached to the Raspberry Pi"
         },
         {
           'link': "https://github.com/briannawang/briannawang.github.io",
           'icon': personalWebsiteLogo,
           'projectName': "Personal Website",
           'technologies': "React, HTML/CSS",
-          'description': "A personal website to consolidate my projects. Rebuilt in React for more component reusability/flexibility"
+          'description': "A personal website to consolidate my projects"
         },
         {
             'link': "https://github.com/briannawang/carbonfoodprint",

@@ -8,6 +8,18 @@ function sortByAuthor(a, b) {
 export default function About() {
     let reading_list = [
         {
+            'title': "Sputnik Sweetheart",
+            'author': "Haruki Murakami",
+        },
+        {
+            'title': "The Death of Ivan Ilyich",
+            'author': "Leo Tolstoy",
+        },
+        {
+            'title': "The Wind-Up Bird Chronicle",
+            'author': "Haruki Murakami",
+        },
+        {
             'title': "The Wretched of the Earth",
             'author': "Frantz Fanon"
         },
@@ -59,10 +71,9 @@ export default function About() {
         return(<li>{item.title} | {item.author}</li>)
     })
 
-    let about_a = `Hi, I'm Brianna, a 2B Software Engineering student at the University of Waterloo. ` +
-    `I'm always looking learn about and explore different tools and technologies. In the past, ` +
-    `I've been particularly interested in web development and have fullstack and backend experience ` +
-    `from internships and personal projects.`;
+    let about_a = `Hi, I'm Brianna, a 3B Software Engineering student at the University of Waterloo. ` +
+    `I'm always looking learn about and explore different tools and technologies. I have experience ` +
+    `in backend/fullstack development, and am especially curious about distributed, scalable systems.`;
     let about_b = `In my free time, I enjoy painting/digital art, listening to music, reading, and learning about ` +
     `history/political science.`;
 
