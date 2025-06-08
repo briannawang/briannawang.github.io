@@ -1,86 +1,84 @@
 import githubProfilePic from '../assets/githubProfilePic.jpeg';
 import './About.css';
 
+const reading_list = [
+    {
+        'title': "Sputnik Sweetheart",
+        'author': "Haruki Murakami",
+    },
+    {
+        'title': "The Death of Ivan Ilyich",
+        'author': "Leo Tolstoy",
+    },
+    {
+        'title': "The Wind-Up Bird Chronicle",
+        'author': "Haruki Murakami",
+    },
+    {
+        'title': "The Wretched of the Earth",
+        'author': "Frantz Fanon"
+    },
+    {
+        'title': "The Darker Nations",
+        'author': "Vijay Prashad"
+    },
+    {
+        'title': "The Sixth Extinction: An Unnatural History",
+        'author': "Elizabeth Kolbert"
+    },
+    {
+        'title': "1Q84",
+        'author': "Haruki Murakami"
+    },
+    {
+        'title': "Kafka On The Shore",
+        'author': "Haruki Murakami"
+    },
+    {
+        'title': "Hard-Boiled Wonderland and the End of the World",
+        'author': "Haruki Murakami"
+    },
+    {
+        'title': "The Song of Achilles",
+        'author': "Madeline Miller"
+    },
+    {
+        'title': "Circe",
+        'author': "Madeline Miller"
+    },
+    {
+        'title': "The Colour Purple",
+        'author': "Alice Walker"
+    },
+    {
+        'title': "Internet for the People",
+        'author': "Ben Tarnoff"
+    },
+    {
+        'title': "The Illustrated Man",
+        'author': "Ray Bradbury"
+    }
+]
+
+const about = [
+    `Hi, I'm Brianna, a 3B Software Engineering student at the University of Waterloo. 
+    I'm always excited to learn new things, and am especially curious about distributed systems.`,
+    `In my free time, I enjoy painting/digital art, listening to music, reading, and learning about 
+    history/political science.`
+];
+
+const quote = `My world foreshortened, flattening into a credit card. Seen head on, things seemed merely skewed, 
+but from the side the view was virtually meaningless—a one-dimensional wafer. Everything about me may have been 
+crammed in there, but it was only plastic. Indecipherable except to some machine.`.toUpperCase();
+
 function sortByAuthor(a, b) {
     return a.author.split(" ")[1].charAt(0) < b.author.split(" ")[1].charAt(0) ? -1 : 1;
 }
 
 export default function About() {
-    let reading_list = [
-        {
-            'title': "Sputnik Sweetheart",
-            'author': "Haruki Murakami",
-        },
-        {
-            'title': "The Death of Ivan Ilyich",
-            'author': "Leo Tolstoy",
-        },
-        {
-            'title': "The Wind-Up Bird Chronicle",
-            'author': "Haruki Murakami",
-        },
-        {
-            'title': "The Wretched of the Earth",
-            'author': "Frantz Fanon"
-        },
-        {
-            'title': "The Darker Nations",
-            'author': "Vijay Prashad"
-        },
-        {
-            'title': "The Sixth Extinction: An Unnatural History",
-            'author': "Elizabeth Kolbert"
-        },
-        {
-            'title': "1Q84",
-            'author': "Haruki Murakami"
-        },
-        {
-            'title': "Kafka On The Shore",
-            'author': "Haruki Murakami"
-        },
-        {
-            'title': "Hard-Boiled Wonderland and the End of the World",
-            'author': "Haruki Murakami"
-        },
-        {
-            'title': "The Song of Achilles",
-            'author': "Madeline Miller"
-        },
-        {
-            'title': "Circe",
-            'author': "Madeline Miller"
-        },
-        {
-            'title': "The Colour Purple",
-            'author': "Alice Walker"
-        },
-        {
-            'title': "Internet for the People",
-            'author': "Ben Tarnoff"
-        },
-        {
-            'title': "The Illustrated Man",
-            'author': "Ray Bradbury"
-        }
-    ]
-
-    let sort_reading_list = reading_list.sort(sortByAuthor);
-
-    const reading_list_div = sort_reading_list.map((item, i) => {
+    const reading_list_div = reading_list.sort(sortByAuthor).map((item, _) => {
         return(<li>{item.title} | {item.author}</li>)
     })
-
-    let about_a = `Hi, I'm Brianna, a 3B Software Engineering student at the University of Waterloo. ` +
-    `I'm always looking learn about and explore different tools and technologies. I have experience ` +
-    `in backend/fullstack development, and am especially curious about distributed, scalable systems.`;
-    let about_b = `In my free time, I enjoy painting/digital art, listening to music, reading, and learning about ` +
-    `history/political science.`;
-
-    let quote = `My world foreshortened, flattening into a credit card. Seen head on, things seemed merely skewed, ` +
-    `but from the side the view was virtually meaningless—a one-dimensional wafer. Everything about me may have been ` +
-    `crammed in there, but it was only plastic. Indecipherable except to some machine.`;
-    quote = quote.toUpperCase();
 
     return (
         <div>
@@ -94,8 +92,8 @@ export default function About() {
                 </a>
                 <div class="flex-child" id="aboutMe">
                     <h1>About Me</h1>
-                    <p>{about_a}</p>
-                    <p>{about_b}</p>
+                    <p>{about[0]}</p>
+                    <p>{about[1]}</p>
                 </div>
             </div>
             <div class="furtherInfo">

@@ -32,10 +32,9 @@ function Contact() {
             </div>
           </a>)
   })
-  console.log("bwlog" + contact_list_div)
   return (
     <div className="contact-position">
-      <div className="greeting">hi! it's <b>brianna</b></div>
+      <div className="greeting">Hi! It's <b>Brianna</b></div>
       {contact_list_div}
   </div>
   );
